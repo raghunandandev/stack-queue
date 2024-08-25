@@ -12,7 +12,7 @@ public class QueueLL {
     }
     static class Queue{
         public static Node head = null;//head
-        public static Node tail = null;
+        public static Node tail = null;//tail
         public static boolean isEmpty(){
             return (head == null || tail == null);
         }
